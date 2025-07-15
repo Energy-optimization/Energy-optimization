@@ -7,3 +7,6 @@
 [submodule "o1-adapter"]
 	path = o1-adapter
 	url = git@github.com:Ramuediga/o1-adapter.git
+[submodule "openairinterface5g"]
+	path = openairinterface5g
+	url = git@github.com:Ramuediga/openairinterface5g
