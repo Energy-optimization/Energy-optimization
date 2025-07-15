@@ -4,3 +4,6 @@
 [submodule "smo-o1"]
 	path = smo-o1
 	url = https://github.com/Ramuediga/smo-o1.git
+[submodule "o1-adapter"]
+	path = o1-adapter
+	url = git@github.com:Ramuediga/o1-adapter.git
