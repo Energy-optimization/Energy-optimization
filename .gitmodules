@@ -1,0 +1,6 @@
+[submodule "smo-ves"]
+	path = smo-ves
+	url = https://github.com/Ramuediga/smo-ves.git
+[submodule "smo-o1"]
+	path = smo-o1
+	url = https://github.com/Ramuediga/smo-o1.git
