@@ -28,8 +28,7 @@ $cd Energy_Optimization
 
 2. Install submodules and their dependencies
 2.1. openairinterface5g
-Follow official OAI documentation or:
-Follow the official [OAI installation guide](https://gitlab.eurecom.fr/oai/openairinterface5g) for full build instructions.
+->Follow the official [OAI installation guide](https://gitlab.eurecom.fr/oai/openairinterface5g) for full build instructions or:
 Example (basic dependencies):
 $cd openairinterface5g
 $sudo apt update
