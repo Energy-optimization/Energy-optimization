@@ -20,22 +20,20 @@ This repository integrates the following Git submodules:
 ---
 
 ## ⚙️ Installation & Setup
+1. Clone the Repository with Submodules
 
-### 📥 1. Clone the Repository with Submodules
+```In the terminal window
+$ git clone --recurse-submodules https://github.com/Ramuediga/Energy_Optimization.git
+$cd Energy_Optimization
 
-```In terminal
-git clone --recurse-submodules https://github.com/Ramuediga/Energy_Optimization.git
-
-### 📥 2. Install Dependencies per Submodule
-### 📥 2.1. openairinterface5g
-### Follow official OAI documentation or:
+2. Install submodules and their dependencies
+2.1. openairinterface5g
+Follow official OAI documentation or:
 Follow the official [OAI installation guide](https://gitlab.eurecom.fr/oai/openairinterface5g) for full build instructions.
 Example (basic dependencies):
-
-```bash
-cd openairinterface5g
-sudo apt update
-sudo apt install -y build-essential cmake libboost-all-dev
+$cd openairinterface5g
+$sudo apt update
+$sudo apt install -y build-essential cmake libboost-all-dev
 # Then follow instructions in openairinterface5g/README.md
 
 
