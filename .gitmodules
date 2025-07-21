@@ -10,3 +10,6 @@
 [submodule "openairinterface5g"]
 	path = openairinterface5g
 	url = git@github.com:Ramuediga/openairinterface5g
+[submodule "performance-aware-rApp"]
+	path = performance-aware-rApp
+	url = https://github.com/Ramuediga/performance-aware-rApp.git
