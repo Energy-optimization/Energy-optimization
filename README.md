@@ -5,7 +5,14 @@ It integrates various components including performance-aware Energy Saver (paES)
 
 ---
 ## 🧱 paES System Architecture
-![paES Architecture](docs/paES_architecture.jpg)
+
+<p align="center">
+  <img src="docs/paES_architecture.jpg" alt="Energy optimization using paES rApp" width="800"/>
+</p>
+
+<p align="center">
+  <em>The paES rApp monitors UE downlink activity and manages gNB cell/RU transitions between sleep and active states via the O1 interface.</em>
+</p>
 
 ---
 ## 📂 Submodules
