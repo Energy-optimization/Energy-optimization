@@ -7,12 +7,11 @@ It integrates various components including performance-aware Energy Saver (paES)
 ## 🧱 System Architecture
 
 ![System Architecture](docs/paES_architecture.jpg)
-
 <p align="center">
   <img src="docs/paES_architecture.png" alt="paES System Architecture" width="800"/>
 </p>
 
-
+---
 ## 📂 Submodules
 
 This repository integrates the following Git submodules:
