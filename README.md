@@ -11,7 +11,7 @@ It integrates various components including performance-aware Energy Saver (paES)
 </p>
 
 <p align="center">
-  <em>The paES rApp monitors UE downlink activity and manages gNB cell/RU transitions between sleep and active states via the O1 interface.</em>
+  <em>The paES rApp monitors UE activity and manages gNB cell/RU transitions between sleep and active states via the O1 interface.</em>
 </p>
 
 ---
