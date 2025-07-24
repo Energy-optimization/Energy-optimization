@@ -19,22 +19,92 @@ This repository integrates the following Git submodules:
 
 ---
 
-## ⚙️ Installation & Setup
-1. Clone the Repository with Submodules
+## 🛠️ Installation and Setup Instructions
 
-```In the terminal window
-$ git clone --recurse-submodules https://github.com/Ramuediga/Energy_Optimization.git
-$cd Energy_Optimization
+### 1. Clone the Repository with Submodules
 
-2. Install submodules and their dependencies
-2.1. openairinterface5g
-->Follow the official [OAI installation guide](https://gitlab.eurecom.fr/oai/openairinterface5g) for full build instructions or:
-Example (basic dependencies):
-$cd openairinterface5g
-$sudo apt update
-$sudo apt install -y build-essential cmake libboost-all-dev
-# Then follow instructions in openairinterface5g/README.md
+$ git clone https://github.com/Energy-optimization/Energy-optimization#
+$ cd Energy_Optimization
 
+
+---
+
+### 2. Install Submodules and Their Dependencies
+
+---
+
+#### 2.1 openairinterface5g
+
+Follow the official [OAI installation guide](https://gitlab.eurecom.fr/oai/openairinterface5g) for complete build instructions.
+
+**Quick Start Example:**
+
+$ cd openairinterface5g
+$ sudo apt update
+$ sudo apt install -y build-essential cmake libboost-all-dev
+
+Then follow the instructions in \`openairinterface5g/README.md\`.
+
+To run the gnb config file along with telnet-o1 server, use the below command
+$ sudo ./nr-softmodem -E -O ../../../targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band78.fr1.106PRB.usrpx310.conf --sa --telnetsrv --telnetsrv.shrmod o1
+---
+
+#### 2.2 o1-adapter
+
+$ cd o1-adapter
+
+- To install using Docker:
+
+$ ./build-adapter.sh --adapter
+
+- To configure and run the O1 adapter with the NetConf server:
+
+$ ./start-adapter.sh
+
+---
+
+#### 2.3 smo-o1
+
+
+$ cd smo-o1
+
+
+Install and run the SDN controller:
+
+$ ./sdnr.sh
+
+---
+
+#### 2.4 smo-ves
+
+cd smo-ves
+
+Follow the official documentation:  
+📎 [https://github.com/o-ran-sc/smo-ves](https://github.com/o-ran-sc/smo-ves)
+
+This includes installation of:
+- VES Collector
+- InfluxDB Connector
+- Grafana
+- Additional dependencies
+
+---
+
+#### 2.5 performance-aware-rApp
+
+cd performance-aware-rApp
+
+Run the Python script to transition the RU into a sleeping state:
+
+python3 performance-aware-rApp.py
+
+---
+
+## 📊 Power Measurement Data
+
+Power consumption results are included in [\`docs/power_measurements.xlsx\`](docs/power_measurements.xlsx).
+
+---
 
 
 
