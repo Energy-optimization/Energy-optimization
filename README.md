@@ -4,6 +4,14 @@ This repository provides an **energy optimization infrastructure** for **OAI5G-R
 It integrates various components including performance-aware Energy Saver (paES) rApp and O1/VES adapters to create a modular, testable energy optimization stack aligned with O-RAN and SMO frameworks.
 
 ---
+## 🧱 System Architecture
+
+![System Architecture](docs/paES_architecture.jpg)
+
+<p align="center">
+  <img src="docs/paES_architecture.png" alt="paES System Architecture" width="800"/>
+</p>
+
 
 ## 📂 Submodules
 
