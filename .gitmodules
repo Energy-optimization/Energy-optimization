@@ -1,15 +1,15 @@
 [submodule "smo-ves"]
 	path = smo-ves
-	url = https://github.com/Ramuediga/smo-ves.git
+	url = https://github.com/Energy-optimization/smo-ves.git
 [submodule "smo-o1"]
 	path = smo-o1
-	url = https://github.com/Ramuediga/smo-o1.git
+	url = https://github.com/Energy-optimization/smo-o1.git
 [submodule "o1-adapter"]
 	path = o1-adapter
-	url = git@github.com:Ramuediga/o1-adapter.git
+	url = https://github.com/Energy-optimization/o1-adapter.git
 [submodule "openairinterface5g"]
 	path = openairinterface5g
-	url = git@github.com:Ramuediga/openairinterface5g
+	url = https://github.com/Energy-optimization/openairinterface5g
 [submodule "performance-aware-rApp"]
 	path = performance-aware-rApp
-	url = https://github.com/Ramuediga/performance-aware-rApp.git
+	url = https://github.com/Energy-optimization/performance-aware-rApp.git
