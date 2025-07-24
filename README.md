@@ -24,7 +24,7 @@ This repository integrates the following Git submodules:
 ### 1. Clone the Repository with Submodules
 ```
 $ git clone https://github.com/Energy-optimization/Energy-optimization#
-$ cd Energy_Optimization
+$ cd Energy-optimization
 ```
 
 ---
