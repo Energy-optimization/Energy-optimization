@@ -1,7 +1,7 @@
 # Energy Optimization
 
 This repository provides an **energy optimization infrastructure** for **OAI5G-Radio Access Network (RAN)** environment.  
-It integrates various components including performance-aware Energy Saver(paES) rApp and O1/VES adapters to create a modular, testable energy optimization stack aligned with O-RAN and SMO frameworks.
+It integrates various components including performance-aware Energy Saver (paES) rApp and O1/VES adapters to create a modular, testable energy optimization stack aligned with O-RAN and SMO frameworks.
 
 ---
 
