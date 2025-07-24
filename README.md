@@ -1,7 +1,7 @@
 # Energy Optimization
 
-This repository focuses on **energy optimization infrastructure** in **RAN (Radio Access Networks)** environments.  
-It integrates various components including rApps, O1/VES adapters, and a 5G core to create a modular, testable energy optimization stack aligned with O-RAN and SMO frameworks.
+This repository provides an **energy optimization infrastructure** for **OAI5G-Radio Access Network (RAN)** environment.  
+It integrates various components including performance-aware Energy Saver(paES) rApp and O1/VES adapters to create a modular, testable energy optimization stack aligned with O-RAN and SMO frameworks.
 
 ---
 
@@ -11,11 +11,11 @@ This repository integrates the following Git submodules:
 
 | Submodule | Description |
 |----------|-------------|
-| [`smo-ves`](https://github.com/Ramuediga/smo-ves) | VES (VNF Event Stream) collector for SMO events |
-| [`smo-o1`](https://github.com/Ramuediga/smo-o1) | O1 interface handler for managing RAN elements |
-| [`o1-adapter`](https://github.com/Ramuediga/o1-adapter) | Adapter layer for O1 interface communication |
-| [`openairinterface5g`](https://github.com/Ramuediga/openairinterface5g) | Fork of OpenAirInterface 5G stack for RAN testing |
-| [`performance-aware-rApp`](https://github.com/Ramuediga/performance-aware-rApp) | rApp focused on performance-aware energy optimization in RAN |
+| [`smo-ves`](https://github.com/Energy-optimization/smo-ves.git) | VES (VNF Event Stream) collector for SMO events |
+| [`smo-o1`](https://github.com/Energy-optimization/smo-o1.git) | O1 interface handler for managing RAN elements |
+| [`o1-adapter`](https://github.com/Energy-optimization/o1-adapter.git) | Adapter layer for O1 interface communication |
+| [`openairinterface5g`](https://github.com/Energy-optimization/openairinterface5g) | Fork of OpenAirInterface 5G stack for RAN testing |
+| [`paES-rApp`](https://github.com/Energy-optimization/performance-aware-rApp.git) | rApp focused on performance-aware energy optimization in RAN |
 
 ---
 
@@ -29,7 +29,7 @@ $ cd Energy-optimization
 
 ---
 
-### 2. Install Submodules and Their Dependencies
+### 2. Install Submodules and Dependencies
 
 ---
 
@@ -92,7 +92,7 @@ This includes installation of:
 
 ---
 
-#### 2.5 performance-aware-rApp
+#### 2.5 paES-rApp
 ```
 $ cd performance-aware-rApp
 ```
