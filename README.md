@@ -7,7 +7,7 @@ It integrates various components including performance-aware Energy Saver (paES)
 ## 🧱 paES System Architecture
 
 <p align="center">
-  <img src="docs/paES_architecture.jpg" alt="Energy optimization using paES rApp" width="800"/>
+  <img src="docs/paES_system_architecture.jpg" alt="Energy optimization using paES rApp" width="800"/>
 </p>
 
 <p align="center">
